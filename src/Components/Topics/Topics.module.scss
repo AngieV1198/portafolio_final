@@ -1,0 +1,13 @@
+.Topics{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    p{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    a{
+        text-decoration: none;
+    }
+}

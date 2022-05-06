@@ -6,3 +6,40 @@ h1 {
   font-size: 40px;
   color: #424242;
 }
+
+.Home {
+  min-height: 100vh;
+  min-width: 100vh;
+  padding-left: 4rem;
+  .Home_Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    // padding: 0 5rem;
+  }
+  .Home_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Home_apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .apps_container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      img {
+        width: 70px;
+        transition: all .3s ease;
+        cursor: pointer;
+      }
+      img:hover {
+        transform: scale(0.9);
+        transition: all .3s ease;
+      }
+    }
+  }
+}
